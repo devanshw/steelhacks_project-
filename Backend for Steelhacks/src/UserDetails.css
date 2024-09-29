@@ -1,0 +1,120 @@
+/* General Styles */
+.user-details-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0; /* Optional: background color for the body */
+}
+
+.user-details-container {
+  max-width: 800px;
+  width: 100%; /* Ensure it takes full width up to max-width */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 5%; /* Align vertically */
+  position: relative; /* Set to relative for absolute positioning of children */
+}
+
+.user-details-page h1 {
+  text-align: center;
+  color: #333;
+}
+
+.user-details-page .input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-details-page .input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Circle Styles */
+.circle {
+  display: flex;
+  width: 75px; /* Set a fixed width */
+  height: 75px; /* Set the same height as width */
+  border: 2px solid rgb(107, 195, 250);
+  border-radius: 50%;
+  align-items: center; /* Center vertically */
+  text-align: center;
+  background-color: rgb(107, 195, 250); /* Light blue background */
+  font-size: 1.5em; /* Font size */
+  color: white; /* Text color */
+  justify-content: center; /* Center horizontally */
+}
+
+.side-by-side {
+  display: flex;
+  gap: 40px; /* Adjust the gap as needed */
+}
+
+.circle-side-by-side {
+  display: flex;
+  gap: 85px; /* Adjust the gap as needed */
+  align-items: center;
+  margin-left: 50px;
+}
+
+/* Data Entry Container */
+.data-entry-container {
+  margin-top: 60px; /* Space above the text box area */
+}
+
+/* Text Box Styles */
+.text-box {
+  position: absolute; /* Position the text box absolutely */
+  top: 70px; /* Adjust as needed for spacing from the top */
+  right: 300px; /* Adjust as needed for spacing from the right */
+  width: 100px; /* Set the width of the text box */
+  height: 50px; /* Set the height of the text box */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add rounded corners */
+  font-size: 2.0em; /* Set the font size */
+  resize: none; /* Disable resizing */
+  font-weight: bold; /* Make the text bold */
+  font-family: 'Indie Flower', cursive; /* Apply hand-drawn font */
+  color: #000; /* Set text color to black */
+  text-align: center; /* Center the text inside */
+}
+
+/* Color styles for different grades */
+.grade-green {
+  background-color: #a8e6a3; /* Light green */
+  color: #005500; /* Dark green text */
+}
+
+.grade-blue {
+  background-color: #b3d9ff; /* Light blue */
+  color: #004080; /* Dark blue text */
+}
+
+.grade-yellow {
+  background-color: #fff9b0; /* Light yellow */
+  color: #806600; /* Dark yellow text */
+}
+
+.grade-orange {
+  background-color: #ffd9b3; /* Light orange */
+  color: #804000; /* Dark orange text */
+}
+
+.grade-red {
+  background-color: #ffcccc; /* Light red */
+  color: #800000; /* Dark red text */
+}
+
+/* Ensure the font is loaded from Google Fonts or another source */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
